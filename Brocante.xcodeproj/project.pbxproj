@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4815DB2A1ED63FE5007C4217 /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4815DB291ED63FE5007C4217 /* Favorites.storyboard */; };
+		4815DB2C1ED63FF8007C4217 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4815DB2B1ED63FF8007C4217 /* Profile.storyboard */; };
+		4815DB2E1ED64010007C4217 /* AddEvent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4815DB2D1ED64010007C4217 /* AddEvent.storyboard */; };
+		4815DB371ED7262F007C4217 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4815DB361ED7262F007C4217 /* Test.storyboard */; };
+		4815DB4A1ED7299C007C4217 /* HomeNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4815DB491ED7299C007C4217 /* HomeNavController.swift */; };
+		4815DB5C1ED7401A007C4217 /* HomeEventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4815DB5B1ED7401A007C4217 /* HomeEventsTableViewController.swift */; };
+		4815DB5E1ED74055007C4217 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4815DB5D1ED74055007C4217 /* Event.swift */; };
+		484F1BED1ED312A7009F5581 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484F1BEC1ED312A7009F5581 /* AdSupport.framework */; };
+		4852EFB01EDC65EE00F03EFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4852EFAF1EDC65EE00F03EFB /* Images.xcassets */; };
+		4852EFB21EDC6D9C00F03EFB /* EventImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4852EFB11EDC6D9C00F03EFB /* EventImageView.swift */; };
+		486095671ED2C5C2000BE842 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486095661ED2C5C2000BE842 /* AppDelegate.swift */; };
+		4860956C1ED2C5C2000BE842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4860956A1ED2C5C2000BE842 /* Main.storyboard */; };
+		4860956E1ED2C5C2000BE842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4860956D1ED2C5C2000BE842 /* Assets.xcassets */; };
+		4860957E1ED2C932000BE842 /* SingleEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4860957D1ED2C932000BE842 /* SingleEventViewController.swift */; };
+		48D412BF1ED31FFB007EC100 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48D412BE1ED31FFB007EC100 /* GoogleService-Info.plist */; };
+		48D5ECD61EDC1079005F4595 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D5ECD51EDC1079005F4595 /* EventTableViewCell.swift */; };
+		48DCFE7F1ED32BAF00E1D3F1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DCFE7E1ED32BAF00E1D3F1 /* LoginViewController.swift */; };
+		FA3FF5D3A9335BF8F5A08B61 /* Pods_Brocante.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C93375476785D51E4301A5 /* Pods_Brocante.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4815DB291ED63FE5007C4217 /* Favorites.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Favorites.storyboard; sourceTree = "<group>"; };
+		4815DB2B1ED63FF8007C4217 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		4815DB2D1ED64010007C4217 /* AddEvent.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddEvent.storyboard; sourceTree = "<group>"; };
+		4815DB361ED7262F007C4217 /* Test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
+		4815DB491ED7299C007C4217 /* HomeNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavController.swift; sourceTree = "<group>"; };
+		4815DB5B1ED7401A007C4217 /* HomeEventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeEventsTableViewController.swift; sourceTree = "<group>"; };
+		4815DB5D1ED74055007C4217 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		484F1BEC1ED312A7009F5581 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		4852EFAF1EDC65EE00F03EFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4852EFB11EDC6D9C00F03EFB /* EventImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventImageView.swift; sourceTree = "<group>"; };
+		486095631ED2C5C2000BE842 /* Brocante.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brocante.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		486095661ED2C5C2000BE842 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4860956B1ED2C5C2000BE842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4860956D1ED2C5C2000BE842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		486095721ED2C5C2000BE842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4860957D1ED2C932000BE842 /* SingleEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleEventViewController.swift; sourceTree = "<group>"; };
+		48D412BE1ED31FFB007EC100 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		48D5ECD51EDC1079005F4595 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		48DCFE7E1ED32BAF00E1D3F1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		86C93375476785D51E4301A5 /* Pods_Brocante.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brocante.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D9885C5CF5CED342E500B3 /* Pods-Brocante.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brocante.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Brocante/Pods-Brocante.debug.xcconfig"; sourceTree = "<group>"; };
+		E3077CAE135AD54FEC7E8CD1 /* Pods-Brocante.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brocante.release.xcconfig"; path = "Pods/Target Support Files/Pods-Brocante/Pods-Brocante.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		486095601ED2C5C2000BE842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484F1BED1ED312A7009F5581 /* AdSupport.framework in Frameworks */,
+				FA3FF5D3A9335BF8F5A08B61 /* Pods_Brocante.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41CF25A24ECC9DAF358096B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1D9885C5CF5CED342E500B3 /* Pods-Brocante.debug.xcconfig */,
+				E3077CAE135AD54FEC7E8CD1 /* Pods-Brocante.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4815DB2F1ED64032007C4217 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4815DB291ED63FE5007C4217 /* Favorites.storyboard */,
+				4815DB2B1ED63FF8007C4217 /* Profile.storyboard */,
+				4815DB2D1ED64010007C4217 /* AddEvent.storyboard */,
+				4815DB361ED7262F007C4217 /* Test.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		4815DB301ED6407B007C4217 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4815DB5D1ED74055007C4217 /* Event.swift */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4860955A1ED2C5C2000BE842 = {
+			isa = PBXGroup;
+			children = (
+				486095651ED2C5C2000BE842 /* Brocante */,
+				486095641ED2C5C2000BE842 /* Products */,
+				41CF25A24ECC9DAF358096B7 /* Pods */,
+				878836B53161B46705524DC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		486095641ED2C5C2000BE842 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				486095631ED2C5C2000BE842 /* Brocante.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		486095651ED2C5C2000BE842 /* Brocante */ = {
+			isa = PBXGroup;
+			children = (
+				4815DB301ED6407B007C4217 /* Models */,
+				4860957A1ED2C7DF000BE842 /* Controllers */,
+				4815DB2F1ED64032007C4217 /* Storyboards */,
+				486095661ED2C5C2000BE842 /* AppDelegate.swift */,
+				4860956A1ED2C5C2000BE842 /* Main.storyboard */,
+				48D5ECD41EDC102B005F4595 /* Cells */,
+				4860956D1ED2C5C2000BE842 /* Assets.xcassets */,
+				4852EFAF1EDC65EE00F03EFB /* Images.xcassets */,
+				48D412BE1ED31FFB007EC100 /* GoogleService-Info.plist */,
+				486095721ED2C5C2000BE842 /* Info.plist */,
+			);
+			path = Brocante;
+			sourceTree = "<group>";
+		};
+		4860957A1ED2C7DF000BE842 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4852EFB11EDC6D9C00F03EFB /* EventImageView.swift */,
+				48DCFE7E1ED32BAF00E1D3F1 /* LoginViewController.swift */,
+				4815DB491ED7299C007C4217 /* HomeNavController.swift */,
+				4815DB5B1ED7401A007C4217 /* HomeEventsTableViewController.swift */,
+				4860957D1ED2C932000BE842 /* SingleEventViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		48D5ECD41EDC102B005F4595 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				48D5ECD51EDC1079005F4595 /* EventTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		878836B53161B46705524DC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				484F1BEC1ED312A7009F5581 /* AdSupport.framework */,
+				86C93375476785D51E4301A5 /* Pods_Brocante.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		486095621ED2C5C2000BE842 /* Brocante */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 486095751ED2C5C2000BE842 /* Build configuration list for PBXNativeTarget "Brocante" */;
+			buildPhases = (
+				F2C514A45EEAA9D80E97F000 /* [CP] Check Pods Manifest.lock */,
+				4860955F1ED2C5C2000BE842 /* Sources */,
+				486095601ED2C5C2000BE842 /* Frameworks */,
+				486095611ED2C5C2000BE842 /* Resources */,
+				306918B60CC8E553EED58099 /* [CP] Embed Pods Frameworks */,
+				1F62EAC2FF63EF3B95C6C3AE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brocante;
+			productName = Brocante;
+			productReference = 486095631ED2C5C2000BE842 /* Brocante.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4860955B1ED2C5C2000BE842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Hadrien Lepoutre";
+				TargetAttributes = {
+					486095621ED2C5C2000BE842 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4860955E1ED2C5C2000BE842 /* Build configuration list for PBXProject "Brocante" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4860955A1ED2C5C2000BE842;
+			productRefGroup = 486095641ED2C5C2000BE842 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				486095621ED2C5C2000BE842 /* Brocante */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		486095611ED2C5C2000BE842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4815DB2E1ED64010007C4217 /* AddEvent.storyboard in Resources */,
+				4852EFB01EDC65EE00F03EFB /* Images.xcassets in Resources */,
+				4815DB2C1ED63FF8007C4217 /* Profile.storyboard in Resources */,
+				48D412BF1ED31FFB007EC100 /* GoogleService-Info.plist in Resources */,
+				4860956E1ED2C5C2000BE842 /* Assets.xcassets in Resources */,
+				4860956C1ED2C5C2000BE842 /* Main.storyboard in Resources */,
+				4815DB371ED7262F007C4217 /* Test.storyboard in Resources */,
+				4815DB2A1ED63FE5007C4217 /* Favorites.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F62EAC2FF63EF3B95C6C3AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brocante/Pods-Brocante-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		306918B60CC8E553EED58099 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brocante/Pods-Brocante-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2C514A45EEAA9D80E97F000 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4860955F1ED2C5C2000BE842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4815DB4A1ED7299C007C4217 /* HomeNavController.swift in Sources */,
+				48DCFE7F1ED32BAF00E1D3F1 /* LoginViewController.swift in Sources */,
+				4852EFB21EDC6D9C00F03EFB /* EventImageView.swift in Sources */,
+				4815DB5C1ED7401A007C4217 /* HomeEventsTableViewController.swift in Sources */,
+				4860957E1ED2C932000BE842 /* SingleEventViewController.swift in Sources */,
+				48D5ECD61EDC1079005F4595 /* EventTableViewCell.swift in Sources */,
+				4815DB5E1ED74055007C4217 /* Event.swift in Sources */,
+				486095671ED2C5C2000BE842 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4860956A1ED2C5C2000BE842 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4860956B1ED2C5C2000BE842 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		486095731ED2C5C2000BE842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		486095741ED2C5C2000BE842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		486095761ED2C5C2000BE842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D9885C5CF5CED342E500B3 /* Pods-Brocante.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Brocante/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.broc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		486095771ED2C5C2000BE842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3077CAE135AD54FEC7E8CD1 /* Pods-Brocante.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Brocante/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.broc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4860955E1ED2C5C2000BE842 /* Build configuration list for PBXProject "Brocante" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486095731ED2C5C2000BE842 /* Debug */,
+				486095741ED2C5C2000BE842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		486095751ED2C5C2000BE842 /* Build configuration list for PBXNativeTarget "Brocante" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486095761ED2C5C2000BE842 /* Debug */,
+				486095771ED2C5C2000BE842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4860955B1ED2C5C2000BE842 /* Project object */;
+}
