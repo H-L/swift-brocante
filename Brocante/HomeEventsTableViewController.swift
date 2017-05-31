@@ -96,6 +96,17 @@ class HomeEventsTableViewController: UITableViewController {
         
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // Instanciate a version of the view that will be sent
+        let detailViewController = self.storyboard?.instantiateViewController(withIdentifier: "EventDetails") as? SingleEventViewController
+        // Get the selected Event instance
+        let theEvent = events[indexPath.row]
+        // Make the Event object in the DetailView equal to the selected object
+        detailViewController!.singleEvent = theEvent
+        // Push using the navigation controller.
+        self.navigationController?.pushViewController(detailViewController!, animated: true)
+    }
 
     /*
     // Override to support conditional editing of the table view.
@@ -132,22 +143,27 @@ class HomeEventsTableViewController: UITableViewController {
     }
     */
 
-    
-    
-
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "ShowEventDetails" {
-            print("====================================================")
-            // Set Segue destination
-            let detailsViewController = segue.destination as! SingleEventViewController
-            // Get IndexPath of the selected Row
-            let myIndexPath = self.tableView.indexPathForSelectedRow!
-            let row = myIndexPath.row
-            
-            // Send cell data to Details View
-            detailsViewController.EventPageTitle.text = events[row].title
-        }
-    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "ShowEventDetails", let destination = segue.destination as? SingleEventViewController {
+////            print("====================================================")
+////            // Get the event related to the row selected
+////            let oneEvent = events[indexPath.row]
+////            // Get the storyboard where the datas will be sent
+////            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+////            // Get the controller where the datas will be sent
+////            let detailController = storyboard.instantiateViewController(withIdentifier: "EventDetails") as! SingleEventViewController
+////            
+////            // Affiliate the event related to the row with an empty object instatiated in the detailController
+////            detailController.singleEvent = oneEvent
+//            
+//            if let _ = sender as? EventTableViewCell, let indexPath = tableView.indexPathForSelectedRow {
+//                let cellEvent = events[indexPath.row]
+//                print(cellEvent.title)
+//                return destination.singleEvent = cellEvent
+//                
+//            }
+//        }
+//    }
 
 }

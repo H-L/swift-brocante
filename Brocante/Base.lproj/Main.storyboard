@@ -27,7 +27,7 @@
         <!--Event View Controller-->
         <scene sceneID="Kg0-6V-HRm">
             <objects>
-                <viewController storyboardIdentifier="SingleEventPage" title="Event View Controller" id="AIP-fe-vDe" customClass="SingleEventViewController" customModule="Brocante" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EventDetails" title="Event View Controller" id="AIP-fe-vDe" customClass="SingleEventViewController" customModule="Brocante" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="trT-B7-3bq"/>
                         <viewControllerLayoutGuide type="bottom" id="F6i-9m-c9K"/>
@@ -137,7 +137,9 @@
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <tabBarItem key="tabBarItem" title="Event" id="jZr-bt-Bre"/>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Event Details" id="U48-GT-rLV"/>
+                    <navigationItem key="navigationItem" title="Event Details" id="U48-GT-rLV">
+                        <barButtonItem key="backBarButtonItem" title="Retour" id="JPj-kc-BVp"/>
+                    </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="EventChoiceGoingButton" destination="W5m-ku-cf9" id="sps-zq-Kcx"/>
@@ -213,7 +215,7 @@
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="eventCellID" selectionStyle="blue" indentationWidth="10" reuseIdentifier="eventCellID" rowHeight="252" id="lmU-SL-sn5" customClass="EventTableViewCell" customModule="Brocante" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="eventCellID" selectionStyle="none" indentationWidth="10" reuseIdentifier="eventCellID" rowHeight="252" id="lmU-SL-sn5" customClass="EventTableViewCell" customModule="Brocante" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="120" width="375" height="252"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lmU-SL-sn5" id="DgY-8Z-1bH">
@@ -310,11 +312,8 @@
                         </connections>
                     </tableView>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Home" id="g6b-u1-adW"/>
+                    <navigationItem key="navigationItem" title="Acceuil" id="g6b-u1-adW"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                    <connections>
-                        <segue destination="AIP-fe-vDe" kind="showDetail" identifier="ShowEventDetails" id="54a-pR-qru"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iv2-RY-XKZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

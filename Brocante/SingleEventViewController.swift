@@ -21,6 +21,9 @@ class SingleEventViewController: UIViewController {
     @IBOutlet weak var EventChoiceMaybeButton: UIButton!
     @IBOutlet weak var EventChoiceNotGoingButton: UIButton!
     
+    // Use this to receive the Event objects from multiple rows of last view
+    var singleEvent = Event()
+    
     // Event Choice Actions
 //    @IBAction func Going(_ sender: Any) {
 //        FIRAnalytics.logEvent(withName: "going_button", parameters: nil)
@@ -28,6 +31,10 @@ class SingleEventViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        EventPageTitle.text = singleEvent.title
+        EventPageLocation.text = singleEvent.location
+        EventPageImage.image = UIImage(named: singleEvent.imageName)
     }
 
     override func didReceiveMemoryWarning() {
